@@ -1,0 +1,48 @@
+Ryan dahl (creador de node js ).
+PRIMS.JS: Trozos de codigo incrustado en web.
+------------------------------------------------------> DEV TOOLS: <----------------------------------------------------------
+
+Windows: ctrl + shift + I 
+Mac: cmd + shift + I
+
+    ESC : Te abre la consola donde estes.
+    console.table() Te hace una tabla de los datos de la consola
+
+Para ver la propiedad de un componente por consola : $0."Propiedad que quieres ver"
+Para buscacr elementos por consola $$("Nombre del elemento que quieres buscar")
+LIGTH HOUSE: Da informes sobre todas las areas de la web (performance, seo, buenas practicas, etc)
+
+CMD + SHIFT + P buscar un archivo en el source de la consola.
+
+SQOOSH.app: Herramienta para reducir peso de imagenes.
+
+RENDERIZAR: Mostrar una vista.
+
+--------------------------------------------> SIGNIFICADOS API / API REST: <----------------------------------------------------
+
+API: Documentación
+API REST: Servicio al que se le hace peticiones 
+ENDPOINT: URL donde se ataca
+
+JSON VIEWER extensión o pagina online de chrome para ver JSON
+
+------------------------------------------------> AGREGAR JAVASCRIPT A HTML <---------------------------------------------------
+
+JAVASCRIPT EN LINEA: Etiqueta <script></script> dentro del body o head del archivo html. Ejemplo: (/EJERCICIO_1/index.html)
+JAVASCRIPT EN RUTA O ARCHIVO ENLAZADO: A la etiqueta <script></script> se le agrega un atributo src="LinkDelArchivoJavscript.js" y todo el codigo js irá dentro de LinkDelArchivoJavscript.js
+
+Cuando usarlo:
+- Head se randeriza antes de la pagina.
+- body se randeriza mientras se carga la página.
+- Antes del body se randeriza despues de la pagina web (FORMA DE PREFERENCIA)
+
+Se pueden importar elementos, funciones variables en vanilla con export en el archivo a exportar e importar en el archivo a usar.
+
+------------------------------------------------> VARIABLES JAVASCRIPT <-------------------------------------------------------
+
+Declaramos una variable pero no se le da valor: 
+let x;
+Declaramos una variable pero si se le da valor:
+let x = 10;
+
+VAR: Es la forma antigua de crear variables, ejemplo: (scopeGlobal.js)
