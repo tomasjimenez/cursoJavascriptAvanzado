@@ -1,5 +1,6 @@
 Ryan dahl (creador de node js ).
 PRIMS.JS: Trozos de codigo incrustado en web.
+Revisar canvas de javascript (juegos)
 ------------------------------------------------------> DEV TOOLS: <----------------------------------------------------------
 
 Windows: ctrl + shift + I 
@@ -46,3 +47,8 @@ Declaramos una variable pero si se le da valor:
 let x = 10;
 
 VAR: Es la forma antigua de crear variables, ejemplo: (scopeGlobal.js)
+
+LET: Puede cambiar el valor.
+CONST: tiene un valor que no puede ser modificado.
+
+TIPOS DE NOMBRES DE VARIABLES: snake_case , kebab-case , camelCase , PascalCase , dote.case
