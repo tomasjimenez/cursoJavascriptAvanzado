@@ -33,18 +33,18 @@ JAVASCRIPT EN LINEA: Etiqueta <script></script> dentro del body o head del archi
 JAVASCRIPT EN RUTA O ARCHIVO ENLAZADO: A la etiqueta <script></script> se le agrega un atributo src="LinkDelArchivoJavscript.js" y todo el codigo js irá dentro de LinkDelArchivoJavscript.js
 
 Cuando usarlo:
-- Head se randeriza antes de la pagina.
-- body se randeriza mientras se carga la página.
-- Antes del body se randeriza despues de la pagina web (FORMA DE PREFERENCIA)
+    - Head se randeriza antes de la pagina.
+    - body se randeriza mientras se carga la página.
+    - Antes del body se randeriza despues de la pagina web (FORMA DE PREFERENCIA)
 
 Se pueden importar elementos, funciones variables en vanilla con export en el archivo a exportar e importar en el archivo a usar.
 
 ------------------------------------------------> VARIABLES JAVASCRIPT <-------------------------------------------------------
 
 Declaramos una variable pero no se le da valor: 
-let x;
+    let x;
 Declaramos una variable pero si se le da valor:
-let x = 10;
+    let x = 10;
 
 VAR: Es la forma antigua de crear variables, ejemplo: (scopeGlobal.js)
 
@@ -52,3 +52,11 @@ LET: Puede cambiar el valor.
 CONST: tiene un valor que no puede ser modificado.
 
 TIPOS DE NOMBRES DE VARIABLES: snake_case , kebab-case , camelCase , PascalCase , dote.case
+
+------------------------------------------------> TIPOS DE DATOS JAVASCRIPT <-------------------------------------------------------
+
+DATOS PRIMITIVOS: Es un dato que no es un objeto y no tiene métodos.
+String, Number, Bigint, Boolean, undefined y Symbol
+
+   - String: Cadena de texto se peude guardar en 'hola' , "hola" , `hola`.
+     
