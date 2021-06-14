@@ -60,3 +60,64 @@ String, Number, Bigint, Boolean, undefined y Symbol
 
    - String: Cadena de texto se peude guardar en 'hola' , "hola" , `hola`.
      
+
+------------------------------------------------> OBJETOS JAVASCRIPT <-------------------------------------------------------------
+
+Maneras de crear un objeto:
+
+1    const objeto = {
+        propiedad : Valor
+     }
+
+2    const objeto = new Object();
+
+3    const objeto = {};
+
+Se pueden agregar propiedades accediendo para la forma de crear el objeto 1: 
+
+    const objeto = new Object()
+
+    objeto.propiedad = Valor;
+
+Se pueden agregar propiedades accediendo para la forma de crear el objeto 2: 
+
+    objeto['Propiedad'] = Valor;
+
+
+Maneras de acceder a las propiedades de un objeto:
+
+    const objeto = {
+            propiedad : Valor
+        }
+
+1    console.log(objeto.propiedad);
+
+2    console.log["Propiedad"];
+
+2    const crearVariable = "Propiedad";
+        console.log(objeto[crearVariable]);
+
+Como cambiar valores de una propiedad de un objeto:
+
+    const objeto = {
+                propiedad : Valor
+            }
+
+1    objeto.propiedad = NuevaPropiedad;
+
+2    objeto['propiedad'] = NuevaPropiedad;
+
+3    const variableNueva = NuevaPropiedad;
+     const propiedad = variableNueva;
+
+Como borrar propiedades dentro de un objeto:
+
+    const objeto = {
+                propiedad : Valor
+            }
+
+    delete objeto.propiedad;
+
+    delete disco["propiedad"]
+
+    
