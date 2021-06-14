@@ -92,7 +92,7 @@ Maneras de acceder a las propiedades de un objeto:
 
 1    console.log(objeto.propiedad);
 
-2    console.log["Propiedad"];
+2    console.log(objeto["Propiedad"]);
 
 2    const crearVariable = "Propiedad";
         console.log(objeto[crearVariable]);
@@ -120,4 +120,120 @@ Como borrar propiedades dentro de un objeto:
 
     delete disco["propiedad"]
 
-    
+------------------------------------------------> ARRAY <-------------------------------------------------------------
+
+
+Es un tipo de objetos que permite almacenar datos, todos los arrays tienen indices que son las posiciones de un array (Matriz o arreglo)
+
+Crear Arrays;
+     FORMA 1:
+
+        const arrayVacioUno = new Array();
+
+    FORMA 2:
+
+        const arrayVacioDos = Array ();
+
+    FORMA 3:
+
+        const arrayVacioTres = [];
+
+Crear arrays con un numero de posiciones
+
+        const arrayVacio = new Array(5):
+
+        const arrayVacio = Array(5)
+
+        const arraVacio = [];
+        arrayVacio.length = 5;
+
+        const arrayVacio = [,,,,,];
+
+Crear arrays con datos:
+
+        const arrayVacio = ["Melon", "Sandia", "Platano"]
+
+        const arrayVacio = new Array("Melon", "Sandia", "Platano"):
+
+        const arrayVacio = Array("Melon", "Sandia", "Platano")
+
+Como acceder a un elemento especifico en un array:
+
+        const arrayVacio = ["Melon", "Sandia", "Platano"]
+        arrayvacio[2]
+
+    Para acceder a la ultima posicion:
+
+        const ejemploVariable = arrayVacio.lenght -1
+        console.log(ejemploVariable)
+
+
+    const comidas = ["pizza", "frutas", "lentejas", "sopas"]
+
+Cambiar el valor de una variable:
+
+    comidas[1]= "macarrones"
+
+Cambiar numeros de elementos de un array:
+
+    comidas.lenght = 2;
+
+Añadir valor a una posicion que no existe en ese momento se puede.
+
+Borrar elemento de un array sin que se pierda el espacio del array:
+
+    delete comidas[1];
+
+Para limpiar el espacio vacio del array despues de haberlo borrado:
+
+const crearVariableNueva = comidas.filter(Boolean)
+
+Metodos de arrays:
+
+array.shift()  Borra el primer elemento del array
+array.pop()    Borra el ultimo elemento del array
+array.unshift(elemento a añadir)    Añade al principio del array un elemento
+array.push(elemento a añadir)      Añade un elemento al final del array.
+
+------------------------------------------------> FUNCIONES <-------------------------------------------------------------
+
+
+Funcion: bloque con un conjunto de instrucciones que realiza una tarea en especifico.
+
+    function ejemploFuncion () {
+        console.log("Hola Mundo")
+    }
+
+Para llamar a la función:
+
+    ejemploFuncion();
+
+Una función que devuelve algún valor:
+
+    function suma (x, y) {
+            return x + y
+        }
+
+    const totalSuma = suma (x, y);
+
+Usar mas de 4 parametros con destructuring:
+
+    const numerosASumar ={
+        a: 1,
+        b: 2,
+        c: 3,
+        d: 4
+    }
+
+    function suma ({a, b, c, d}) {
+                return a + b + c + d;
+            }
+
+    const totalSuma = suma(numerosASumar);
+
+------------------------------------------------> COMENTARIOS <-------------------------------------------------------------
+
+UNA LINEA: // al principio de la LINEA
+
+MULTILINEA: /* sfsldhfjsdhfjshdf
+sdfhsjdhfkjshdkfjhsdkjfh */
