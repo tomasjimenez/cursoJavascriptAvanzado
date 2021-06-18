@@ -1,6 +1,9 @@
 Ryan dahl (creador de node js ).
 PRIMS.JS: Trozos de codigo incrustado en web.
 Revisar canvas de javascript (juegos)
+explicita se lo das tu 
+implicita lo hace javascript
+Coercion
 ------------------------------------------------------> DEV TOOLS: <----------------------------------------------------------
 
 Windows: ctrl + shift + I 
@@ -237,3 +240,50 @@ UNA LINEA: // al principio de la LINEA
 
 MULTILINEA: /* sfsldhfjsdhfjshdf
 sdfhsjdhfkjshdkfjhsdkjfh */
+
+------------------------------------------------> OPERADORES <-------------------------------------------------------------
+
+OPERADORES ARITMETICOS: 
+
+ +  (suma),
+ -  (resta), 
+ *  (multiplicacion),
+ ** (exponencial:. 2**4 = 16), 
+ /  (division), 
+ %  (modulo), 
+ ++ (incrementa un valor), 
+ -- (decrementa un valor).
+
+OPERADORES DE ASIGNACION: 
+
+=    (igual que)
++=   (suma ambas variables a += ; x= x + y), 
+-=   (resta ambas variables), 
+*=   (multiplica ambas variables), 
+/=   (divide ambas variables), 
+%=   (modulo de ambas variables), 
+**=  (saca el exponencial de ambas variables).
+
+OPERADORES DE COMPARACION: 
+
+==  (compara dos valores sin comparar su tipo).
+=== (nos dice que el valor comparado es identico tanto el valor ocmo el tipo).
+!=  (compara si un valor es diferente y solo compara valor y no tipo ).
+!=  (compara si un valor es diferente y compara valor y tipo ).
+>   (mayor que).
+<   (menor que).
+>=  (mayor o igual).
+<=  (menor o igual).
+?   (operador condicional o ternario).
+
+OPERADORES LOGICOS:
+
+&&  (AND o Y ),
+||  (OR o Ó ),
+!   (NOT o NO o INVERSA o DIFERENTE) 
+
+OPERADORES TYPE: 
+
+typeof (devuelve que tipo de variable es)
+instanceof (te devuelve si es una instancia de tipo de objeto (Objet, String, Array...) exampleString instanceof String).
+
